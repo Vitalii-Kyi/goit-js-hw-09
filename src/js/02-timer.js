@@ -63,7 +63,7 @@ function addLeadingZero(value) {
   return String(value).padStart(2, "0");
 }
   
-flatpickr(inputDate, options)
+flatpickr(inputDate, options);
 
 window.addEventListener('load', onLoad);
 

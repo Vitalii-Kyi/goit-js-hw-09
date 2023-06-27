@@ -21,11 +21,11 @@ img {
 
 .button {
   align-items: center;
-  background: #c0c0c0;
+  background: #ececec;
   border: 0;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #008080;
+  color: #696969;
   cursor: pointer;
   display: flex;
   font-size: 1rem;
@@ -45,7 +45,7 @@ img {
 }
 
 .button:hover {
-  background: #ffffff;
+  background:#ffffff;
 }
 
 @media (min-width: 768px) {
@@ -66,7 +66,7 @@ img {
   color: #c0c0c0;
   justify-content: center;
   align-items: center;
-  margin: 5px;
+  margin: 20px;
   padding: 10px;
   display: flex;
 }

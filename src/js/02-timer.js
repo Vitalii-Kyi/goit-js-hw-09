@@ -12,8 +12,8 @@ const outSeconds = document.querySelector('[data-seconds]');
 let outDate = 0;
 
 const onLoad = () => {
-  start.disabled = true;
-  inputDate.disabled = false;
+  start.disable = true;
+  inputDate.disable = false;
 };
 
 function outTime(outDate) {
@@ -68,8 +68,8 @@ flatpickr(inputDate, options);
 window.addEventListener('load', onLoad);
 
 start.addEventListener('click', () => {
-  inputDate.disabled = true;
-  start.disabled = true;
+  inputDate.disable = true;
+  start.disable = true;
 
   const timer = setInterval(() => {
     if (outDate > 1000) {
@@ -77,8 +77,8 @@ start.addEventListener('click', () => {
       outTime(outDate);
     } else {
       clearInterval(timer);
-      inputDate.disabled = false;
-      start.disabled = false;
+      inputDate.disable = false;
+      start.disable = false;
     }
   }, 1000)
 })

@@ -75,7 +75,7 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
-  column-gap: 24px;
+  column-gap: 36px;
   flex-direction: column;
 }
 
